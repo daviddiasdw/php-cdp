@@ -30,7 +30,8 @@ O que você encontra aqui:
 
 ```bash
     docker exec -ti app-base sh
-```    
+```
+    
 * Dentro do container execute os comandos:
     
 ```bash
@@ -45,6 +46,12 @@ O que você encontra aqui:
     * Gere a chave para o aplicativo:
     
         php artisan key:generate
+```
+
+* Verifique o seu projeto rodando no link:
+
+```bash
+    http://localhost:8000/
 ```
             
 ## :D
