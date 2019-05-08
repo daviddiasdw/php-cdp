@@ -47,3 +47,8 @@ O que você encontra aqui:
         php artisan key:generate
 ```
             
+## :D
+Meu primeiro projeto com docker.
+
+## Nós
+[Gieandes Silva](http://gieandessilva.com)
