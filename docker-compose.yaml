@@ -5,7 +5,7 @@ services:
   app:
     container_name: app-base
     build:
-      context: ./environment/
+      context: ./docker/
       dockerfile: app.dockerfile
     working_dir: /var/www/
     volumes:
@@ -18,7 +18,7 @@ services:
   web:
     container_name: web-base
     build:
-      context: ./environment/
+      context: ./docker/
       dockerfile: web.dockerfile
     working_dir: /var/www/html
     volumes_from:
