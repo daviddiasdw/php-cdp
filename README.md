@@ -11,10 +11,10 @@ O que você encontra aqui:
 * Faça o clone do projeto:
 
 ```bash
-    git clone git@github.com:GieandesSilva/docker-nginx-1.git nome-do-projeto
+    git clone git@github.com:GieandesSilva/docker-nginx-1.git [nome-do-projeto]
 ```
 
-* Entre na pasta nome-do-projeto e rode:
+* Entre na pasta [nome-do-projeto] e rode:
 
 ```bash
     docker-compose up -d
