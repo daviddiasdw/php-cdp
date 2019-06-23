@@ -26,10 +26,11 @@ services:
     ports:
       - 8000:80
 
-  # The Database
+  # The database
   database:
     container_name: db-base
-    image: mysql
+    image: mysql:5.7
+    command: --disable-partition-engine-check
     volumes:
       - dbdata:/var/lib/mysql
     environment:
